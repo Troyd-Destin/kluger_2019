@@ -11,7 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 // Angular Forms Modules
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 // MDB Angular Free
-import { CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule,InputUtilitiesModule } from 'angular-bootstrap-md';
+import { CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule,InputUtilitiesModule,CarouselModule } from 'angular-bootstrap-md';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
@@ -43,7 +43,7 @@ import { FooterComponent } from './footer/footer.component';
     NgbModule,
     AppRoutingModule,
     FlexLayoutModule ,
-    CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule,FormsModule, ReactiveFormsModule,InputUtilitiesModule
+    CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule,FormsModule, ReactiveFormsModule,InputUtilitiesModule,CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent],
