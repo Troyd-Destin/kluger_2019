@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+img{
+
+    //width: 100%;
+}
+.bg-dark{
+
+    background-color: #052c54 !important;
+}
+
+.nav-item a {
+    cursor: "pointer";
+}
+
+.navbar{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 1rem;
+}
