@@ -4,6 +4,11 @@ img{
 
     //width: 100%;
 }
+
+p{
+    max-width: 600px;
+}
+
 .bg-dark{
 
     background-color: #052c54 !important;
@@ -20,4 +25,26 @@ img{
         align-items: center;
         justify-content: space-between;
         padding: 0rem 1rem;
+        margin-bottom: 0px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 500 !important;
+    background-color: #316aa7d1;
+    /* color: white; */
+}
+
+.unique-color{
+
+    background-color: #25517d !important;
+}
+
+
+/* Buttons */
+.btn-outline-primary {
+    border: 2px solid #377cbf !important;
+    background-color: transparent !important;
+    color: #3b83ca !important;
 }
